@@ -67,6 +67,7 @@ class Program
         //        drawcard.RemoveAt(drawcard.Count()-1);
         //    }
         //}
+
         for (int i = 0; i < 2; i++)
         {
             Shuffle(drawcard);
@@ -112,7 +113,7 @@ class Program
             ShowPick(pile1, pile2, pile3, pile4, pile5, pile6, pile7, drawcard);
         }
     }
-
+    //A optimiser !!
     public static void ShowPick(List<Card> pile1, List<Card> pile2, List<Card> pile3, List<Card> pile4, List<Card> pile5, List<Card> pile6, List<Card> pile7, List<Card> drawcard)
     {
         Console.Clear();
