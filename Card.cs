@@ -10,7 +10,6 @@ namespace ProjetConsole
     {
         public Value value;
         public Suit suit;
-        public bool darkside = true;
 
         public Card(Value value, Suit suit)
         {
